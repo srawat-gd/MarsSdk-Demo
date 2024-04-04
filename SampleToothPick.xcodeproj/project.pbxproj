@@ -14,6 +14,7 @@
 		5E500A722BBADCE6008235D6 /* SampleToothPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A712BBADCE6008235D6 /* SampleToothPickTests.swift */; };
 		5E500A7C2BBADCE6008235D6 /* SampleToothPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A7B2BBADCE6008235D6 /* SampleToothPickUITests.swift */; };
 		5E500A7E2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A7D2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift */; };
+		5EAF1FCE2BBE8518001129D7 /* MarsSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAF1FCD2BBE8518001129D7 /* MarsSdk */; };
 		5EDD01482BBD23EB0016B233 /* MagicMonolines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EDD01472BBD23EB0016B233 /* MagicMonolines.ttf */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		5E500A772BBADCE6008235D6 /* SampleToothPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleToothPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E500A7B2BBADCE6008235D6 /* SampleToothPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToothPickUITests.swift; sourceTree = "<group>"; };
 		5E500A7D2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToothPickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EAF1FCB2BBE84FB001129D7 /* MarsSdk */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MarsSdk; sourceTree = "<group>"; };
 		5EDD01472BBD23EB0016B233 /* MagicMonolines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagicMonolines.ttf; sourceTree = "<group>"; };
 		5EDD01492BBD30DB0016B233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAF1FCE2BBE8518001129D7 /* MarsSdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				5E500A702BBADCE6008235D6 /* SampleToothPickTests */,
 				5E500A7A2BBADCE6008235D6 /* SampleToothPickUITests */,
 				5E500A5E2BBADCE3008235D6 /* Products */,
+				5EAF1FCC2BBE8518001129D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +101,7 @@
 		5E500A5F2BBADCE3008235D6 /* SampleToothPick */ = {
 			isa = PBXGroup;
 			children = (
+				5EAF1FCB2BBE84FB001129D7 /* MarsSdk */,
 				5EDD01492BBD30DB0016B233 /* Info.plist */,
 				5EDD01462BBD23B30016B233 /* Fonts */,
 				5E500A602BBADCE3008235D6 /* SampleToothPickApp.swift */,
@@ -132,6 +137,13 @@
 			path = SampleToothPickUITests;
 			sourceTree = "<group>";
 		};
+		5EAF1FCC2BBE8518001129D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EDD01462BBD23B30016B233 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +169,7 @@
 			);
 			name = SampleToothPick;
 			packageProductDependencies = (
+				5EAF1FCD2BBE8518001129D7 /* MarsSdk */,
 			);
 			productName = SampleToothPick;
 			productReference = 5E500A5D2BBADCE3008235D6 /* SampleToothPick.app */;
@@ -610,6 +623,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EAF1FCD2BBE8518001129D7 /* MarsSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarsSdk;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E500A552BBADCE3008235D6 /* Project object */;
 }
