@@ -1,0 +1,3 @@
+[submodule "SampleToothPick/MarsSdk"]
+	path = SampleToothPick/MarsSdk
+	url = https://github.com/srawat-gd/MarsSdk.git

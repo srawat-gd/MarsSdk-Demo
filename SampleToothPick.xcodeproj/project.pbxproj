@@ -14,6 +14,7 @@
 		5E500A722BBADCE6008235D6 /* SampleToothPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A712BBADCE6008235D6 /* SampleToothPickTests.swift */; };
 		5E500A7C2BBADCE6008235D6 /* SampleToothPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A7B2BBADCE6008235D6 /* SampleToothPickUITests.swift */; };
 		5E500A7E2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E500A7D2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift */; };
+		5EDD01482BBD23EB0016B233 /* MagicMonolines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EDD01472BBD23EB0016B233 /* MagicMonolines.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		5E500A772BBADCE6008235D6 /* SampleToothPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleToothPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E500A7B2BBADCE6008235D6 /* SampleToothPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToothPickUITests.swift; sourceTree = "<group>"; };
 		5E500A7D2BBADCE6008235D6 /* SampleToothPickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToothPickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EDD01472BBD23EB0016B233 /* MagicMonolines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MagicMonolines.ttf; sourceTree = "<group>"; };
+		5EDD01492BBD30DB0016B233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		5E500A5F2BBADCE3008235D6 /* SampleToothPick */ = {
 			isa = PBXGroup;
 			children = (
+				5EDD01492BBD30DB0016B233 /* Info.plist */,
+				5EDD01462BBD23B30016B233 /* Fonts */,
 				5E500A602BBADCE3008235D6 /* SampleToothPickApp.swift */,
 				5E500A622BBADCE3008235D6 /* ContentView.swift */,
 				5E500A642BBADCE6008235D6 /* Assets.xcassets */,
@@ -127,6 +132,14 @@
 			path = SampleToothPickUITests;
 			sourceTree = "<group>";
 		};
+		5EDD01462BBD23B30016B233 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5EDD01472BBD23EB0016B233 /* MagicMonolines.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +156,8 @@
 			dependencies = (
 			);
 			name = SampleToothPick;
+			packageProductDependencies = (
+			);
 			productName = SampleToothPick;
 			productReference = 5E500A5D2BBADCE3008235D6 /* SampleToothPick.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +230,8 @@
 				Base,
 			);
 			mainGroup = 5E500A542BBADCE3008235D6;
+			packageReferences = (
+			);
 			productRefGroup = 5E500A5E2BBADCE3008235D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E500A682BBADCE6008235D6 /* Preview Assets.xcassets in Resources */,
+				5EDD01482BBD23EB0016B233 /* MagicMonolines.ttf in Resources */,
 				5E500A652BBADCE6008235D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +443,13 @@
 				DEVELOPMENT_TEAM = 5993VHQK8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleToothPick/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +474,13 @@
 				DEVELOPMENT_TEAM = 5993VHQK8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleToothPick/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
