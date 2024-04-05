@@ -10,9 +10,9 @@ import MarsSdk
 
 struct ContentView: View {
     class palette: IMarsPalette {
-        var ascentColor: Color = .blue
         var primaryColor: Color = .blue
-        var secondaryColor: Color = .blue
+        var secondaryColor: Color = .yellow
+        var ascentColor: Color = .red
         var fontName: String =  "MagicMonolines"
     }
     
@@ -20,7 +20,7 @@ struct ContentView: View {
         class serverConfig: IServerConfig {
             var clientId: String = ""
             var secretId: String = ""
-            var serverUrl: String = ""
+            var serverUrl: String = "https://graphql-demo.mead.io/"
         }
         var serverConfig: IServerConfig = serverConfig()
     }
